@@ -1,6 +1,6 @@
 name: tox
 
-on: workflow_dispatched
+on: workflow_dispatch
 
 jobs:
   build:
