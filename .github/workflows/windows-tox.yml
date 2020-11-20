@@ -1,8 +1,7 @@
-name: tox
+name: Windows-Tox
 
-on: 
-  workflow_dispatch:
-# Can't I use workflow from other branches?
+on: workflow_dispatch
+
 jobs:
   build:
     name: ${{ matrix.tox_env }}
