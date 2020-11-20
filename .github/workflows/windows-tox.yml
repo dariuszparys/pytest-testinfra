@@ -2,7 +2,7 @@ name: tox
 
 on: 
   workflow_dispatch:
-
+# Can't I use workflow from other branches?
 jobs:
   build:
     name: ${{ matrix.tox_env }}
