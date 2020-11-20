@@ -1,4 +1,4 @@
-name: windows-tox
+name: Windows Tox
 
 on: push
 
